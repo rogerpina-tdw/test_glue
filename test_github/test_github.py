@@ -14,6 +14,6 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-print("Teste bilateral")
+print("Hello World!")
 
 job.commit()
